@@ -1,6 +1,7 @@
 body{
     margin: 0px;
-    overflow:hidden;
+    overflow-x:hidden;
+    font-family: "nunito";
 }
 .header, .footer{
     width: 100%;
@@ -12,4 +13,38 @@ body{
     right: 200px;
     margin-top: 100px;
     margin-bottom: 70px;
+}
+.quienes{
+    display:flex;
+
+}
+.quienesizq, .comoizq{
+    display:flex;
+    flex-direction: column;
+    text-align: end;
+    margin-left: 500px;
+}
+.quienesder, .comoder{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    width: 700px;
+}
+.comoder{
+    margin-left:750px;
+}
+.quienesder p, .comoder p{
+    width: 520px;
+    text-align: justify;
+
+}
+.quienesder h3{
+    background: #8D41D1;
+    color: white;
+    padding-left: 20px;
+}
+.comoder h3{
+    background: #EC4DC8;
+    color: white;
+    padding-left: 20px;
 }
