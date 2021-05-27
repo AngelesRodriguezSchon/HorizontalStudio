@@ -11,6 +11,11 @@ body{
     width: 100vw;
     margin: 0px;
 }
+.boton{
+position: fixed;
+left: 1300px;
+bottom: 300px;
+}
 .footer{
     margin-top: 80px;
 }
