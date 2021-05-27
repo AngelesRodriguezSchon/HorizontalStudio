@@ -7,6 +7,9 @@ body{
     width: 100%;
     margin: 0px;
 }
+.footer{
+    margin-top: 80px;
+}
 .titulo{
     height: 49px;
     position: relative;
@@ -14,17 +17,20 @@ body{
     margin-top: 100px;
     margin-bottom: 70px;
 }
-.quienes{
+.quienes, .experiencia, .contacto{
     display:flex;
 
 }
-.quienesizq, .comoizq{
+.quienesizq, .comoizq, .contizq{
     display:flex;
     flex-direction: column;
     text-align: end;
     margin-left: 500px;
 }
-.quienesder, .comoder{
+.expizq{
+    margin-left: 475px;
+}
+.quienesder, .comoder, .expder, .contder{
     display: flex;
     flex-direction: column;
     margin-left: 100px;
@@ -33,7 +39,11 @@ body{
 .comoder{
     margin-left:750px;
 }
-.quienesder p, .comoder p{
+
+.contizq{
+    margin-left:620px;
+}
+.quienesder p, .comoder p, .expder p{
     width: 520px;
     text-align: justify;
 
@@ -47,4 +57,26 @@ body{
     background: #EC4DC8;
     color: white;
     padding-left: 20px;
+}
+.expizq button{
+    border: none;
+    border-radius: 0px;
+    background-color: #8D41D1;
+    color: white;
+    padding: 10px 15px;
+    font-size: 10pt;
+    font-weight: 400;
+    width:170px;
+}
+.expder p{
+    margin-top: -20px;
+}
+.fab{
+    color: #EC4DC8; 
+}
+.contder{
+    margin-top: -20px;
+}
+.contder p, .contder a{
+    color: #8D41D1;
 }
