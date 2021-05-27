@@ -2,9 +2,13 @@ body{
     margin: 0px;
     overflow-x:hidden;
     font-family: "nunito";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .header, .footer{
-    width: 100%;
+    width: 100vw;
     margin: 0px;
 }
 .footer{
@@ -13,7 +17,7 @@ body{
 .titulo{
     height: 49px;
     position: relative;
-    right: 200px;
+    right: 100px;
     margin-top: 100px;
     margin-bottom: 70px;
 }
