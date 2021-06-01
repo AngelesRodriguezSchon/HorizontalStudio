@@ -11,10 +11,10 @@ body{
     width: 100vw;
     margin: 0px;
 }
-.boton{
+.botonProy{
 position: fixed;
 left: 1300px;
-bottom: 300px;
+bottom: 650px;
 }
 .footer{
     margin-top: 80px;
@@ -79,6 +79,9 @@ bottom: 300px;
 }
 .expder p{
     margin-top: -20px;
+}
+.logos{
+    margin-right: 22px;
 }
 .fab{
     color: #EC4DC8; 
